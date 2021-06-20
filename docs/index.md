@@ -14,10 +14,12 @@ through in this documents to solve any question you have!
 ## Why Bases?
 
 You may be asking why you should use Bases over the conventional OOP method? Well Bases it's created around the idea of creating custom instance classes. This means that you can simulate the
-behaviour of a normal Roblox's instance and create your own instance type, for example a Roblox's instance of the class **BasePart** looks like this:
+behaviour of a normal Roblox's instance and create your own instance type, for example a Roblox's instance of the class BasePart looks like this:
+
 ![alt text](https://github.com/remideas/Bases/blob/main/BasePartClass.png?raw=true)
 
 And an instance created from the next Bases' class looks like this:
+
 ```lua
 local bases = require(script.Parent)
 local bouncy_part = bases("setup", script)
@@ -36,6 +38,12 @@ return bouncy_part
 ```
 
 ![alt text](https://github.com/remideas/Bases/blob/main/BouncyPartClass.png?raw=true)
+
+So basically, Bases allows you to wrap instance classes to create your own instance class with custom attributes and methods, being able to interact with your object within the real instance.
+To achieve this with the convetional OOP method, you must need to modify your metamethod and class and it will not look as a Roblox's instance class.
+
+!!! warning
+	You shouldn't use Bases to create non instance classes since you will be wasting memory.
 
 
 	
