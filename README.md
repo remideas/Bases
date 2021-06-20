@@ -1,3 +1,4 @@
+![alt text](https://github.com/remideas/Bases/blob/main/Icon.png?raw=true)
 # Bases
 Bases it's a Roblox Studio module that allows you to sandbox with custom instance classes to do any crazy ideas you can imagine, no metatables needed, just a table in a module script.
 
