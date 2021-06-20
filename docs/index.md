@@ -1,42 +1,12 @@
-# Welcome to my documentation!
+# Bases module
 
-Heres the github repository [remi-reyes/Documentations](https://github.com/remi-reyes/Documentations).
+Bases it's a Roblox Studio module that allows you to sandbox with custom instance classes to do any crazy ideas you can imagine, no metatables needed, just a table in a module script.
 
-## About
+I'm trying to improve sandboxing the best I can, if you have any suggestion / idea feel free to tell me about it. If you find any bug I would be very happy that you report it to me.
 
-This is just an example of documentation with Material for MKDocs
+Heres the github [repository](https://github.com/remideas/Bases).
 
-I'm just going to show off an idiotic thing everyone knows. (if you don't learn it omegalul)
+## It's very simple!
 
-```lua linenums="1"
--- This is a lua codeblock.
-local class = {}
-class.__index = class
-
-function class:SayMessage()
-	print(self.message)
-end
-
-function class:SetMessage(message)
-	self.message = message
-end
-
-function class.new(message)
-	local object = setmetatable({}, class)
-	
-	object.message = message
-	
-	return object
-end
-```
-
-??? example "Example of creating an object."
-	To create an object, simply use the constructor method in class.
-	```lua linenums="1"
-	local object = class.new("Hi!") -- Creates our new object.
-	
-	object:SayMessage() -- This will print "Hi!"
-	object:SetMessage("Bye!") -- This will set the object's attribute to "Bye!"
-	object:SayMessage() -- This will print "Bye!"
-	```
+Bases allows you to create custom instance classes without any effort, even a banana can do it! It's just a few lines of code to start working in amazing projects.
 	
