@@ -8,5 +8,10 @@ Heres the github [repository](https://github.com/remideas/Bases).
 
 ## It's very simple!
 
-Bases allows you to create custom instance classes without any effort, even a banana can do it! It's just a few lines of code to start working in amazing projects.
+Bases allows you to create custom instance classes without any effort, even a banana can do it! It's just a few lines of code to start working in amazing projects. We will guide you
+through in this documents to solve any question you have!
+
+## Why Bases?
+
+You may be asking why you should use Bases over the conventional OOP method? Well Bases it's created around the idea of creating custom **instance** classes. What does this mean?
 	
