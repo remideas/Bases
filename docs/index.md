@@ -13,5 +13,5 @@ through in this documents to solve any question you have!
 
 ## Why Bases?
 
-You may be asking why you should use Bases over the conventional OOP method? Well Bases it's created around the idea of creating custom **instance** classes. What does this mean?
+You may be asking why you should use Bases over the conventional OOP method? Well Bases it's created around the idea of creating custom instance classes. What does this mean?
 	
