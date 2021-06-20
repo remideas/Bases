@@ -1,10 +1,10 @@
 # Bases ![alt text](https://github.com/remideas/Bases/blob/main/Icon.png?raw=true)
-Bases it's a Roblox Studio module that allows you to sandbox with custom instance classes to do any crazy ideas you can imagine, no metatables needed, just a table in a module script.
+Bases it's a Roblox Studio module made by remi that allows you to sandbox with custom instance classes to do any crazy ideas you can imagine, no metatables needed, just a table in a module script.
 
-I'm trying to improve sandboxing the best I can, if you have any suggestion / idea feel free to tell me about it. If you find any bug I would be very happy that you report it to me.
+I'm trying to improve sandboxing and performance the best I can, if you have any suggestion / idea feel free to tell me about it. If you find any bug I would be very happy that you report it to me.
 
 ## It's simple!
-Start working with Bases its just one click away, no need for being a scientific to know what to do, you have documents, examples and everything setted up so you can start using it!
+Start working with Bases it's very simple, no need for being a scientific to know what to do, you have documents, examples and everything setted up so you can start using it!
 
 It's simple as just creating a new empty module and writing one line no need for any extra steps ;)
 ```lua
@@ -18,7 +18,7 @@ Bases brings two friends into the party, even if you dont know their names you w
 Theres no need for adding those separately, they come together!
 
 ### SignalConnection Class
-A module that will imitate the behaviour of the RBXScriptSignal and RBXScriptConnection userdatas in order to make custom events for your objects, this is already implemented on bases and you don't need to worry about it, but if you want to use it, its there!
+A module that will imitate the behaviour of the RBXScriptSignal and RBXScriptConnection in order to make custom events for your objects, this is already implemented on bases and you don't need to worry about it, but if you want to use it, its there!
 ```lua
 local Signal = require(6976644438)
 
