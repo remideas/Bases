@@ -38,4 +38,5 @@ the name you want to assign to your class. Example:
 
 ## Silencing modules
 
-Silencing a module means ignore it when loading the classes in the master module, you may noticed that Bases module includes a children  
+Silencing a module means ignoring it when loading the classes in the master module, you may noticed that Bases module includes a children, which is an example class to introduce the
+user. ![children](https://github.com/remideas/Bases/blob/main/images/ChildrenPhoto.png?raw=true){ align = right}
