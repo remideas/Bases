@@ -6,7 +6,7 @@ I'm trying to improve sandboxing and performance the best I can, if you have any
 ## It's simple!
 Start working with Bases it's very simple, no need for being a scientific to know what to do, you have documents, examples and everything setted up so you can start using it!
 
-It's simple as just creating a new empty module and writing one line no need for any extra steps ;)
+It's simple as just creating a new empty module and writing one line no need for any extra steps.
 ```lua
 local bases = require(script.Parent)
 local my_class = bases("setup", script)
@@ -14,6 +14,8 @@ local my_class = bases("setup", script)
 
 ## Extras
 Bases brings two friends into the party, even if you dont know their names you will like to use them! Bases has two additional modules added into its source code which you can access from any script if wanted.
+
+Those modules were originally only going to be available for the master module, but why not let users use them? So you are free to check them out.
 
 Theres no need for adding those separately, they come together!
 
