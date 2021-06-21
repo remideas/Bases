@@ -1,7 +1,9 @@
-[data-md-color=scheme="dark"] {
+:root {
 	--md-primary-fg-color: #000000;
 	--md-primary-bg-color: #ffffff;
+}
 
+[data-md-color-scheme="dark"] {
 	--md-default-bg-color: #1f1f1f;
 	--md-default-fg-color: #ffffff;
 	--md-default-fg-color--light: #cccccc;
