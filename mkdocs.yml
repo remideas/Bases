@@ -15,15 +15,6 @@ theme:
     logo: images/Icon.png
     language: en
     name: material
-    palette:
-      - scheme: light
-        toggle:
-            icon: material/lightbulb-outline
-            name: Switch to dark mode.
-      - scheme: dark
-        toggle:
-            icon: material/lightbulb
-            name: Switch to light mode.
     features:
       - navigation.instant
       - navigation.tabs
