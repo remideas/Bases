@@ -12,6 +12,7 @@ extra_javascript:
   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
 theme:
+    logo: images/Icon.png
     language: en
     name: material
     palette:
@@ -29,6 +30,7 @@ theme:
       - navigation.top
 
 markdown_extensions:
+  - attr_list
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences:

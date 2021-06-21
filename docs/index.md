@@ -16,7 +16,7 @@ through in this documents to solve any question you have!
 You may be asking why you should use Bases over the conventional [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) method? Well, Bases it's created around the idea of creating custom instance classes. This means that you can simulate the
 behavior of a normal Roblox's instance and create your own instance type, for example, a Roblox's instance of the class BasePart looks like this:
 
-![alt text](https://github.com/remideas/Bases/blob/main/BasePartClass.png?raw=true)
+![alt text](https://github.com/remideas/Bases/blob/main/images/BasePartClass.png?raw=true)
 
 And an instance created from the next Bases' class looks like this:
 
@@ -37,7 +37,7 @@ end
 return bouncy_part
 ```
 
-![alt text](https://github.com/remideas/Bases/blob/main/BouncyPartClass.png?raw=true)
+![alt text](https://github.com/remideas/Bases/blob/main/assets/BouncyPartClass.png?raw=true)
 
 So basically, Bases allows you to wrap instance classes to create your own instance class with custom attributes and methods, being able to interact with your object within the real instance.
 To achieve this with the conventional OOP method, you just need to modify your metamethods and class but it will not look like a Roblox's instance class to the user; so I made it for you!

@@ -25,6 +25,6 @@ graph LR;
 
 It will look like this
 
-![alt text](https://github.com/remideas/Bases/blob/main/DebugPhoto.png?raw=true)
+![alt text](https://github.com/remideas/Bases/blob/main/assets/DebugPhoto.png?raw=true)
 
 If the value is set to false, the message will stop printing in the output, if a class was not loaded, means that its either silenced or it raises an error.
