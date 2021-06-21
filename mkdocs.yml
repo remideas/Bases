@@ -12,7 +12,7 @@ extra_javascript:
   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
 theme:
-    logo: images/Icon.png
+    logo: https://github.com/remideas/Bases/blob/main/images/Icon.png?raw=true
     language: en
     name: material
     palette:
