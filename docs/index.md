@@ -20,7 +20,7 @@ behavior of a normal Roblox's instance and create your own instance type, for ex
 
 And an instance created from the next Bases' class looks like this:
 
-```lua
+```lua linenums="1"
 local bases = require(script.Parent)
 local bouncy_part = bases("setup", script)
 

@@ -15,16 +15,27 @@ after loading them.
 graph LR;
   A[Script] -->|require| B[Module];
   B --> C[Load Classes];
-  C --> D[Silenced?];
-  D --> |true| E[Ignore];
-  D --> |false| F[Accept];
-  F --> G[Error?];
-  G --> |yes| E;
-  G --> |no| H[Print];
+  C --> |Silenced|D[Ignore];
+  C --> |Not Silenced| E[Load];
+  E --> F[Error?];
+  F --> |yes| D;
+  F --> |no| G[Print];
 </div>
 
 It will look like this
 
 ![debug_photo](https://github.com/remideas/Bases/blob/main/images/DebugPhoto.png?raw=true)
 
-If the value is set to false, the message will stop printing in the output, if a class was not loaded, means that its either silenced or it raises an error.
+If the value is set to false, the message will stop printing in the output, if a class was not loaded, means that its either silenced or it raises an error. The **silence_module**
+variable it's the prename you will need to set to a module's name to silence it.
+
+## Adding classes
+
+To add a class to Bases module, all you need to do is create a [ModuleScript](https://developer.roblox.com/en-us/api-reference/class/ModuleScript) inside it; the name of it must be
+the name you want to assign to your class. Example:
+
+![example_gif](https://github.com/remideas/Bases/blob/main/images/CreateClassGif.gif)
+
+## Silencing modules
+
+Silencing a module means ignore it when loading the classes in the master module, you may noticed that Bases module includes a children  
