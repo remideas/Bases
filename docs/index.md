@@ -37,7 +37,7 @@ end
 return bouncy_part
 ```
 
-![bases instance](https://github.com/remideas/Bases/blob/main/assets/BouncyPartClass.png?raw=true)
+![bases instance](https://github.com/remideas/Bases/blob/main/images/BouncyPartClass.png?raw=true)
 
 So basically, Bases allows you to wrap instance classes to create your own instance class with custom attributes and methods, being able to interact with your object within the real instance.
 To achieve this with the conventional OOP method, you just need to modify your metamethods and class but it will not look like a Roblox's instance class to the user; so I made it for you!
