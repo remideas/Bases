@@ -24,6 +24,7 @@
 	--md-typeset-a-color: #372270;
 }
 [data-md-color-scheme="dark"] {
+	
 	--md-default-bg-color: #1f1f1f;
 	--md-default-fg-color: #ffffff;
 	--md-default-fg-color--light: #cccccc;
