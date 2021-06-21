@@ -15,6 +15,8 @@ theme:
     logo: images/Icon.png
     language: en
     name: material
+    palette:
+        scheme: dark
     features:
       - navigation.instant
       - navigation.tabs
